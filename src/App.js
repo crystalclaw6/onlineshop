@@ -1,22 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
-
+import MainPage from './mainpage';
+import NavJson from "./navigation.json";
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <nav className='navbar'> 
+          <ul className='nav'>
+          {NavJson.map(chapter =>
+            //<Link to= {chapter.name} className = "gamelinkStyle">
+            <li className = "listItem">
+            <a className = "title"><MainPage title = {chapter.name} items = {chapter.parts}/></a>
+            </li>
+           // </Link>
+            )}
+          </ul></nav>
       </header>
     </div>
   );

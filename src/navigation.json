@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "NEW",
+      "parts": [
+      ],
+      "path": "./seabattle/image/SBlogo.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Одежда",
+        "parts": [
+          "Платья",
+          "Футболки",
+          "Джинсы"
+        ],
+        "path": "./seabattle/image/SBlogo.jpg"
+    },
+      {
+      "id": 1,
+      "name": "Обувь",
+      "parts": [
+      ],
+      "path": "./seabattle/image/SBlogo.jpg"
+    }
+    ,
+      {
+      "id": 1,
+      "name": "Аксессуары",
+      "parts": [
+        "Сумки",
+        "Украшения"
+      ],
+      "path": "./seabattle/image/SBlogo.jpg"
+    }
+    ,
+      {
+      "id": 1,
+      "name": "SALE",
+      "parts": [
+      ],
+      "path": "./seabattle/image/SBlogo.jpg"
+    }
+  ]
