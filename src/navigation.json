@@ -1,36 +1,41 @@
 [
-    {
+    
+  {
       "id": 1,
       "name": "NEW",
       "parts": [
       ],
+      "color": "red",
       "path": "./seabattle/image/SBlogo.jpg"
     },
     {
         "id": 1,
-        "name": "Одежда",
+        "name": "ОДЕЖДА",
         "parts": [
           "Платья",
           "Футболки",
           "Джинсы"
         ],
+        "color": "black",
         "path": "./seabattle/image/SBlogo.jpg"
     },
       {
       "id": 1,
-      "name": "Обувь",
+      "name": "ОБУВЬ",
       "parts": [
       ],
+      "color": "black",
       "path": "./seabattle/image/SBlogo.jpg"
     }
     ,
       {
       "id": 1,
-      "name": "Аксессуары",
+      "name": "АКСЕССУАРЫ",
       "parts": [
         "Сумки",
         "Украшения"
       ],
+      "color": "black",
       "path": "./seabattle/image/SBlogo.jpg"
     }
     ,
@@ -39,6 +44,7 @@
       "name": "SALE",
       "parts": [
       ],
+      "color": "red",
       "path": "./seabattle/image/SBlogo.jpg"
     }
   ]

@@ -1,11 +1,42 @@
 .App {
+
+}
+.logo{
+  position: relative;
+  left: 1vw;
+  font-size: 40px;
+  padding: 5px 15px;
+  line-height: 50px;
+}
+.navbar{
+  overflow: hidden;
+  width: 100%;  /* i'm assuming full width */
+  height: 100%; /* change it to desired width */
   
 }
+.mosaic{
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+}
+.main{
+  pointer-events: none;
+  overflow: hidden;
+  top:0;
+  width:100%;
+  height:100%;
+}
+.box{
+  width: 100%;
+}
 
-.navbar{
-  width: 100%;  /* i'm assuming full width */
-  height: 80px; /* change it to desired width */
-  display: inline-block; 
+.photobox{
+  position: relative;
+  width: 50%;
+  height: 100%;
+margin: 0px;
+padding: 0px;
+
 }
 .nav{
   display: flex;
@@ -13,23 +44,56 @@
   padding: 0px;
   margin: 0px;
   list-style-type: none;
+  font-family: Courier New, monospace;
   
 }
 .nav li{
+
   text-align:center;
-  line-height: 45px;
+  line-height: 55px;
 }
-.nav a{
-  font-size: 25px;
-  padding: 5px 15px;
-  opacity: 0.7;
+.buttonNew{
+  position: fixed;
+  height: 6%;
+  width: 15%;
+  position: absolute;
+  z-index: 1;
+  top:70%;
+  left:42.5%;
+  background: none;
+  border: 0.15vw solid white;
+  color: white;
+  font-size: 1.3vw;
+  font-family: Courier New, monospace;
+}
+.title{
+  font-size: 20px;
+  padding: 5px 10px;
   
 }
 .App-header {
+  background-color:none;
   
+  transition: background-color 0.5s 0.5s;
   height: 50px;
   color: black;
-  background-color: white;
-  opacity: 0.7;
+
 }
+.App-header:hover {
+  transition: background-color 0.5s;
+  background-color: white;
+}
+/*.App-header:hover .tt{
+  transition: height 0.5s;
+  height: 50px;
+}
+.tt{
+  width: 100vw;
+  position: absolute;
+  z-index: 0;
+  background-color: white;
+  transition: height 0.5s 0.5s;
+  height: 0;
+}*/
+
 
