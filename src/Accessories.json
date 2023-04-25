@@ -1,0 +1,21 @@
+[
+    {
+        "type":"украшения",
+        "product": [
+        {"photo":"./earrings1.jpg", "price":2000, "collection":"new"},
+        {"photo":"./necklace1.jpg", "price":2000, "collection":"sale"}
+        ]
+    },
+    {
+        "type":"очки",
+        "product": [
+        {"photo":"./sunglasses1.jpg", "price":2000, "collection":"sale"}
+        ]
+    },
+    {
+        "type":"сумки",
+        "product": [
+        {"photo":"./bag1.jpg", "price":2000, "collection":"old"}
+        ]
+    }
+]

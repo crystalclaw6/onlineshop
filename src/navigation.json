@@ -3,6 +3,7 @@
   {
       "id": 1,
       "name": "NEW",
+      "link": "/newcollection",
       "parts": [
       ],
       "color": "red",
@@ -11,6 +12,7 @@
     {
         "id": 1,
         "name": "ОДЕЖДА",
+        "link": "/clothes",
         "parts": [
           "Платья",
           "Футболки",
@@ -22,6 +24,7 @@
       {
       "id": 1,
       "name": "ОБУВЬ",
+      "link": "/shoes",
       "parts": [
       ],
       "color": "black",
@@ -31,6 +34,7 @@
       {
       "id": 1,
       "name": "АКСЕССУАРЫ",
+      "link": "/accessories",
       "parts": [
         "Сумки",
         "Украшения"
@@ -42,6 +46,7 @@
       {
       "id": 1,
       "name": "SALE",
+      "link": "/sale",
       "parts": [
       ],
       "color": "red",

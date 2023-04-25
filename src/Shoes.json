@@ -1,0 +1,15 @@
+[
+    {
+        "type":"туфли",
+        "product": [
+        {"photo":"./shoe1.jpg", "price":2000, "collection":"new"},
+        {"photo":"./shoe2.jpg", "price":2000, "collection":"new"}
+        ]
+    },
+    {
+        "type":"ботинки",
+        "product": [
+        {"photo":"./boots1.jpg", "price":2000, "collection":"new"}
+        ]
+    }
+]

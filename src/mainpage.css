@@ -25,12 +25,11 @@ transition: height 1s 0.44s;
 .black:hover{
     text-decoration: underline black;
 }
-ul{
+.ulbox{
     text-transform: capitalize;
-    list-style-type: none;
     padding: 100px 200px;
 }
-li{
+.ulbox li{
    transition: 0.2s;
 }
 .close{

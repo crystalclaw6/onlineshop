@@ -1,34 +1,43 @@
 import './App.css';
-import MainPage from './mainpage';
+import MainPage from './mainpage.js';
 import NavJson from "./navigation.json";
+import HomePage from './HomePage.js';
+import Catalog from './Catalog';
+import { Routes, Route, Link} from 'react-router-dom';
+import { useEffect } from 'react';
+import Clothes from "./clothes.json";
+import Accessories from "./Accessories.json";
+import Shoes from "./Shoes.json"
 function App() {
+  useEffect(() => {
+    document.title = "MOMO - Online fashion store";
+  }, []);
   return (
     <div className="App" >
       <header className="App-header">
         <nav className='navbar'> 
           <ul className='nav'>
           <li className = "listItem">
-            <a className = "logo">Momo</a>
+            <Link to = "/" className='linkstyle'><a className = "logo">Momo</a></Link>
             </li>
           {NavJson.map(chapter =>
-            //<Link to= {chapter.name} className = "gamelinkStyle">
             <li className = "listItem">
-            <a className = "title"><MainPage title = {chapter.name} items = {chapter.parts} color = {chapter.color}/></a>
+            <a className = "title"><MainPage info = {chapter}/></a>
             </li>
-           // </Link>
             )}
           </ul></nav>
       </header>
       <body>
-      <div className='mosaic main'>
-            <div className='main box'>
-              <img className='photobox' src="./main1.jpg"></img>
-              <img className='photobox' src = "./main2.jpg"></img>
-              <button className='buttonNew'>НОВАЯ КОЛЛЕКЦИЯ</button>
-              </div>
-          </div>
-          
+      <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/newcollection" element={<Catalog title="NEW" collection="new" elements={Clothes.concat(Accessories.concat(Shoes))}/>} />
+      <Route path="/sale" element={<Catalog title="SALE" collection="sale" elements={Clothes.concat(Accessories.concat(Shoes))}/>} />
+      <Route path="/clothes" element={<Catalog title="Одежда" elements={Clothes} collection="all"/>} />
+      <Route path="/shoes" element={<Catalog title="Обувь" elements={Shoes} collection="all"/>} />
+      <Route path="/accessories" element={<Catalog title="Аксессуары" elements={Accessories} collection="all"/>} />
+      </Routes>
       </body>
+      
     </div>
   );
 }

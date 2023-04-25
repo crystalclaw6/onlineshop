@@ -1,0 +1,19 @@
+[
+    {
+        "type":"платья",
+        "product": [
+        {"photo":"./dress1.jpg", "price":2000, "collection":"new", "title":"Прилегающее платье миди на тонких бретелях"},
+        {"photo":"./dress2.jpg", "price":2000, "collection":"new", "title":"Платье миди на запах"},
+        {"photo":"./dress3.jpg", "price":2000, "newprice":1999, "collection":"sale","title":"Легкое платье миди с контрастными пуговицами"}
+        ]
+    },
+    {
+        "type":"брюки",
+        "product": [
+        {"photo":"./pants1.jpg", "price":2000, "collection":"new", "title":"Свободные брюки с защипами на талии"},
+        {"photo":"./pants2.jpg", "price":2000, "collection":"old", "title":"Легкое платье миди с контрастными пуговицами"},
+        {"photo":"./pants3.jpg", "price":2000, "collection":"old", "title":"Узкие брюки на высокой посадке"},
+        {"photo":"./pants4.jpg", "price":2000, "newprice":1999, "collection":"sale", "title":"Свободные джинсы на высокой посадке"}
+        ]
+    }
+]

@@ -7,43 +7,25 @@
   font-size: 40px;
   padding: 5px 15px;
   line-height: 50px;
+  color: black;
 }
 .navbar{
   overflow: hidden;
-  width: 100%;  /* i'm assuming full width */
-  height: 100%; /* change it to desired width */
+  
   
 }
-.mosaic{
-  pointer-events: none;
-  position: absolute;
-  z-index: -1;
+.linkstyle{
+  text-decoration: none;
+  
 }
-.main{
-  pointer-events: none;
-  overflow: hidden;
-  top:0;
-  width:100%;
-  height:100%;
-}
-.box{
-  width: 100%;
-}
-
-.photobox{
-  position: relative;
-  width: 50%;
-  height: 100%;
-margin: 0px;
-padding: 0px;
-
+ul {
+  list-style-type: none;
 }
 .nav{
   display: flex;
   flex-direction: row;
   padding: 0px;
   margin: 0px;
-  list-style-type: none;
   font-family: Courier New, monospace;
   
 }
@@ -52,32 +34,22 @@ padding: 0px;
   text-align:center;
   line-height: 55px;
 }
-.buttonNew{
-  position: fixed;
-  height: 6%;
-  width: 15%;
-  position: absolute;
-  z-index: 1;
-  top:70%;
-  left:42.5%;
-  background: none;
-  border: 0.15vw solid white;
-  color: white;
-  font-size: 1.3vw;
-  font-family: Courier New, monospace;
-}
+
 .title{
   font-size: 20px;
   padding: 5px 10px;
   
 }
 .App-header {
+  position: absolute;
   background-color:none;
-  
+  top:0;
+  left:0;
+  width: 100%;
   transition: background-color 0.5s 0.5s;
   height: 50px;
   color: black;
-
+z-index: 1000;
 }
 .App-header:hover {
   transition: background-color 0.5s;
