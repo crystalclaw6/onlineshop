@@ -1,6 +1,9 @@
 .App {
 
 }
+body{
+  margin: 0;
+}
 .logo{
   position: relative;
   left: 1vw;

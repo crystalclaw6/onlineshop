@@ -1,21 +1,21 @@
 [
     {
-        "type":"украшения",
+        "type":"Украшения",
         "product": [
-        {"photo":"./earrings1.jpg", "price":2000, "collection":"new"},
-        {"photo":"./necklace1.jpg", "price":2000, "collection":"sale"}
+        {"photo":"./earrings1.jpg", "price":1299, "collection":"new", "title":"Серьги с подвесками-жемчужинами"},
+        {"photo":"./necklace1.jpg", "price":1699, "collection":"old", "title":"Комбинированное колье"}
         ]
     },
     {
-        "type":"очки",
+        "type":"Очки",
         "product": [
-        {"photo":"./sunglasses1.jpg", "price":2000, "collection":"sale"}
+        {"photo":"./sunglasses1.jpg", "price":2199, "collection":"old", "title":"Солнцезащитные очки в металлической оправе"}
         ]
     },
     {
-        "type":"сумки",
+        "type":"Сумки",
         "product": [
-        {"photo":"./bag1.jpg", "price":2000, "collection":"old"}
+        {"photo":"./bag1.jpg", "price":4499, "newprice":3499,"collection":"sale", "title":"Сумка на плечо из экокожи"}
         ]
     }
 ]

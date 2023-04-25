@@ -1,15 +1,15 @@
 [
     {
-        "type":"туфли",
+        "type":"Туфли",
         "product": [
-        {"photo":"./shoe1.jpg", "price":2000, "collection":"new"},
-        {"photo":"./shoe2.jpg", "price":2000, "collection":"new"}
+        {"photo":"./shoe1.jpg", "price":6499, "collection":"new", "title":"Туфли на платформе с острым мысом"},
+        {"photo":"./shoe2.jpg", "price":5999, "collection":"new", "title":"Босоножки на высоком каблуке"}
         ]
     },
     {
-        "type":"ботинки",
+        "type":"Ботинки",
         "product": [
-        {"photo":"./boots1.jpg", "price":2000, "collection":"new"}
+        {"photo":"./boots1.jpg", "price":7499, "collection":"old", "title":"Ботильоны с острым мысом"}
         ]
     }
 ]

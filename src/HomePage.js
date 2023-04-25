@@ -8,7 +8,7 @@ const HomePage =()=> {
             <div className='main box'>
               <img className='photobox' src="./main1.jpg"></img>
               <img className='photobox' src = "./main2.jpg"></img>
-              <Link to = "/newcollection"><button className='buttonNew'>НОВАЯ КОЛЛЕКЦИЯ</button></Link>
+              <Link to = "/newcollection"  state={{ typefrom: 'none'}}><button className='buttonNew'>НОВАЯ КОЛЛЕКЦИЯ</button></Link>
               </div>
           </div>
           </div>
